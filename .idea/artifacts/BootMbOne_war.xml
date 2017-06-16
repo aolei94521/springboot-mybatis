@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BootMbOne:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="BootMbOne.war">
+      <element id="artifact" artifact-name="BootMbOne:war exploded" />
+    </root>
+  </artifact>
+</component>
