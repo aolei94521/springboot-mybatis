@@ -14,9 +14,11 @@ import org.springframework.stereotype.Service;
 public class IUserServiceImpl implements IUserService{
     @Autowired
     private UserMapper userMapper;
+
     @Override
     public User getUserById(int id) {
         User user = userMapper.selectById(id);
         return user;
     }
+
 }
